@@ -2,3 +2,4 @@ aaaa
 
 this file is changed for fstrigger plugin
 apple ball cat dog
+A+B working now

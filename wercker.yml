@@ -2,13 +2,8 @@ box: wercker/android
 
 build:
     steps:
-        # Execute the bundle install step, a step provided by wercker
-        #- bundle-install
-        mvn clean install
-        # Execute a custom script step.
-        #- script:
-        #    name: middleman build
-        #    code: bundle exec middleman build --verbose
+        - mvn clean install
+      
 #deploy:
     #steps:
         # Execute the heroku-deploy, heroku details can be edited

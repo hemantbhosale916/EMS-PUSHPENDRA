@@ -1,4 +1,4 @@
-box: wercker/android
+box: pushpendrad/emsdockerhub
 
 build:
     steps:

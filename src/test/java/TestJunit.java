@@ -36,7 +36,7 @@ public class TestJunit {
 	@Test
 	public void testgetsetcity()
 	{
-		empCommand.setCity("pune");
+		empCommand.setCity("puneeeeeee");
 		//System.out.println("heelooooooooo");
 		assertEquals("pune",empCommand.getCity());
 		

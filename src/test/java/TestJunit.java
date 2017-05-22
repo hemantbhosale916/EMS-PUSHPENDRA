@@ -22,21 +22,21 @@ public class TestJunit {
 	@Test
 	public void testgetsetname()
 	{
-		empCommand.setName("Pushpendra");
+		empCommand.setName("Pushpendraa");
 		assertEquals("Pushpendra",empCommand.getName());
 	}
 	
 	@Test
 	public void testgetsetcode()
 	{
-		empCommand.setCode(100);
+		empCommand.setCode(1000);
 		assertEquals(100,empCommand.getCode());
 	}
 	
 	@Test
 	public void testgetsetcity()
 	{
-		empCommand.setCity("pune");
+		empCommand.setCity("punee");
 		//System.out.println("heelooooooooo");
 		assertEquals("pune",empCommand.getCity());
 		
